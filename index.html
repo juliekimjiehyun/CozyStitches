@@ -4,10 +4,69 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+
         <title></title>
-        <link rel="stylesheet" href="">
+
+
     </head>
     <body>
+        <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <a class="navbar-brand" href="#">
+                        <img src="favicon_io_yarn/favicon.ico" height="30" width="30">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active px-5">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item px-5">
+                      <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown px-5">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Products
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Amigurumi</a>
+                        <a class="dropdown-item" href="#">Clothing</a>
+                        <a class="dropdown-item" href="#">Home Decor</a>
+                      </div>
+                    </li>
+                    <li class="nav-item px-5">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                    <form class="form-inline my-2 my-lg-0 mr-5">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                    <li class="nav-item" id="shoppingCart">
+                        <a class="nav-link" href="#"> 
+                            <img src="/favicon_io_shoppingCart/favicon.ico" height="30" width="30">
+                        </a>
+                    </li>
+                </div>
+            </div>
+          </nav>
+
+        <h1>Cozy Stitches</h1>
 
     </body>
 </html>
+
+    <!-- build:js js/main.js-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
