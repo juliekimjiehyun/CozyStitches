@@ -1,7 +1,23 @@
+body {
+    background-color: #c3e1ee;
+}
+
 .fa-shopping-cart {
     color: black;
 }
 
 #shoppingCart {
     list-style-type: none;
+}
+
+.navbar {
+    font-family: 'Anuphan', sans-serif;
+    font-weight: 400;
+}
+
+
+h1 {
+    font-family: 'DynaPuff', cursive;
+    font-size: 8rem;
+    margin-top: 100px;
 }
